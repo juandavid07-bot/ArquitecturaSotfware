@@ -76,7 +76,7 @@ public class PersonaMySQLDAO implements PersonaDAO{
                     + " from persona "
                     + " where "
                     + " identificacion='" + p.getIdentificacion()+"'"
-                    + " AND nombre_1='"+p.getNombre1()+"'");
+                    + " AND nombre_1='"+p.getNombre1()+"'");/* selecciona los atributos ah actualizar*/
             
             while (rs.next())
             { 
@@ -131,7 +131,7 @@ public class PersonaMySQLDAO implements PersonaDAO{
                     +",email=?"
                     +", fecha_nacimiento=?"
                     +", tipo_persona=?"
-                    + " WHERE identificacion = "+ p.getIdentificacion());
+                    + " WHERE identificacion = "+ p.getIdentificacion());/* Condicion para actualizar la tabla */
                         
              pstmt.setString(1, p.getIdentificacion());
             pstmt.setString(2, p.getNombre1());

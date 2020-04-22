@@ -122,7 +122,7 @@ public class PersonaControllers implements Controller {
         return "persona_consultar";
     }     
     
-@RequestMapping(method = RequestMethod.GET, value = "personaEditar.htm")
+ @RequestMapping(method = RequestMethod.GET, value = "personaEditar.htm")
     public String processSubmit4(HttpServletRequest req, SessionStatus status,ModelMap model) 
     {      
         Logger.getLogger(PersonaControllers.class.getName()).log(Level.INFO, "Ejecutando processSubmit4...");
