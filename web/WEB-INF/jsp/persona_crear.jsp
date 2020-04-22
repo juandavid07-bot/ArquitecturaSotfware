@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="registration">
 		<div class="container">
 			<div class="signin-form profile">
-				<h3>:: Registro ::</h3>
+				<h3> Registras XD</h3>
 				
 				<div class="login-form">
 					<form action="personaRegistrar.htm" method="post">

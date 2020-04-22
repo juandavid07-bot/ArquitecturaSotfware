@@ -91,9 +91,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="plans.html" class="hvr-sweep-to-bottom">Plans</a></li>
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persona<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="personaCrear.htm">Crear</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="personaCrear.htm">Crear Pappi</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="personaConsultar.htm">Consultar</a></li>
-
+                                                                                                                                                                                  
                                                                                 <li><a class="hvr-sweep-to-bottom" href="personaEliminar.htm">Eliminar</a></li>
 									</ul>
 								</li>

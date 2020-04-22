@@ -78,7 +78,7 @@ public class PersonaControllers implements Controller {
         Logger.getLogger(PersonaControllers.class.getName()).log(Level.SEVERE, null, "Registrar + " + ident + "-" + insert);
         
         if (insert)
-            model.put("mensaje", "El registro fue creado satisfactoriamente!!!");
+            model.put("mensaje", "El registro fue creado Bravoo!!!");
         else
             model.put("mensaje", "El registro NO fue creado, consulte con el administrador...");
         
@@ -208,9 +208,9 @@ public class PersonaControllers implements Controller {
    boolean res = MySqlFactory.getPersonaDao().editarPersona(p, MySqlDataSource.getConexionBD());
                
         if (res)
-            model.put("mensaje", "Se edito satisfactoriamente!!!");
+            model.put("mensaje", "Se edito La personita!!!");
         else
-            model.put("mensaje", "NO se guardaron los cambios...");
+            model.put("mensaje", "NO se guardardo La personita ");
         
         return "persona_editar";
         
